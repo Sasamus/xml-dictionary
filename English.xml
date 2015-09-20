@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Filename: English.xml -->
+<!-- Author: Albin Engström -->
+
+<Dictionary>
+	<!-- The language of the words in the dictionary -->
+	<Language>English</Language>
+	
+	<!-- The author of the dictionary -->
+	<Author>Albin Engström</Author>
+	
+	<!-- The words in the dictionary -->
+	<Words>
+		<Word1>Horse</Word1>
+		<Word2>Ball</Word2>
+		<Word3>House</Word3>
+		<Word4>Sun</Word4>
+		<Word5>Computer</Word5>
+		<Word6>Water</Word6>
+		<Word7>Piano</Word7>
+		<Word8>Clock</Word8>
+		<Word9>Car</Word9>
+		<Word10>Chocolate</Word10>
+	</Words>
+</Dictionary>
