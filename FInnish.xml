@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Filename: FInnish.xml -->
+<!-- Author: Albin Engström -->
+
+<Dictionary>
+	<!-- The language of the words in the dictionary -->
+	<Language>Finnish</Language>
+	
+	<!-- The author of the dictionary -->
+	<Author>Albin Engström</Author>
+	
+	<!-- The words in the dictionary -->
+	<Words>
+		<Word1>Hevonen</Word1>
+		<Word2>Pallo</Word2>
+		<Word3>Talo</Word3>
+		<Word4>Aurinko</Word4>
+		<Word5>Tietokone</Word5>
+		<Word6>Vesi</Word6>
+		<Word7>Piano</Word7>
+		<Word8>Kello</Word8>
+		<Word9>Auto</Word9>
+		<Word10>Sukla</Word10>
+	</Words>
+</Dictionary>
