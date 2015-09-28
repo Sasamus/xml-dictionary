@@ -6,10 +6,10 @@
 <Dictionary>
 	<!-- The language of the words in the dictionary -->
 	<Language>Finnish</Language>
-	
+
 	<!-- The author of the dictionary -->
 	<Author>Albin Engström</Author>
-	
+
 	<!-- The words in the dictionary -->
 	<Words>
 		<Word1>Hevonen</Word1>
