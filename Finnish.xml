@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Style.css"?>
 
 <!-- Filename: Finnish.xml -->
 <!-- Author: Albin Engström -->
 
 <Dictionary>
+
 	<!-- The language of the words in the dictionary -->
 	<Language>Finnish</Language>
 
@@ -23,4 +25,5 @@
 		<Word9>Auto</Word9>
 		<Word10>Sukla</Word10>
 	</Words>
+
 </Dictionary>

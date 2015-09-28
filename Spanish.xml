@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Style.css"?>
 
 <!-- Filename: Spanish.xml -->
 <!-- Author: Albin Engström -->
 
 <Dictionary>
+
 	<!-- The language of the words in the dictionary -->
 	<Language>Spanish</Language>
-	
+
 	<!-- The author of the dictionary -->
 	<Author>Albin Engström</Author>
-	
+
 	<!-- The words in the dictionary -->
 	<Words>
 		<Word1>Caballo</Word1>
@@ -23,4 +25,5 @@
 		<Word9>Auto</Word9>
 		<Word10>Chocolate</Word10>
 	</Words>
+
 </Dictionary>
