@@ -1,4 +1,4 @@
-/* Styling for the Language tag */
+/* Styling for the Language element */
 Language {
 
   /* Show the text in a single line */
@@ -14,7 +14,7 @@ Language {
   font-variant: small-caps;
 }
 
-/* Styling for the Author tag */
+/* Styling for the Author element */
 Author {
 
   /* Set the padding above it to 1.5 cm */
@@ -34,4 +34,17 @@ Author {
 
   /* Set font variant to small-caps */
   font-variant: small-caps;
+}
+
+/* Styling for every child element to the Words element */
+Words * {
+
+  /* Show the words in separete lines */
+  display: block;
+
+  /* Align the words to the left */
+  text-align: left;
+
+  /* Set font size to 12pt */
+  font-size: 12pt;
 }
