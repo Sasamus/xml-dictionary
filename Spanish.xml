@@ -10,7 +10,7 @@
   <!ELEMENT Author (#PCDATA)>
   <!ELEMENT Words (Word+)>
   <!ELEMENT Word (#PCDATA)>
-]
+]>
 
 <Dictionary>
 
