@@ -4,6 +4,14 @@
 <!-- Filename: Spanish.xml -->
 <!-- Author: Albin Engström -->
 
+<!DOCTYPE Dictionary [
+  <!ELEMENT Dictionary (Language, Author, Words)>
+  <!ELEMENT Language (#PCDATA)>
+  <!ELEMENT Author (#PCDATA)>
+  <!ELEMENT Words (Word+)>
+  <!ELEMENT Word (#PCDATA)>
+]
+
 <Dictionary>
 
 	<!-- The language of the words in the dictionary -->
