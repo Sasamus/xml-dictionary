@@ -22,16 +22,16 @@
 
 	<!-- The words in the dictionary -->
 	<Words>
-		<Word nr="1">Caballo</Word1>
-		<Word nr="2">Bola</Word2>
-		<Word nr="3">Case</Word3>
-		<Word nr="4">Sol</Word4>
-		<Word nr="5">Computadora</Word5>
-		<Word nr="6">Agua</Word6>
-		<Word nr="7">Piano</Word7>
-		<Word nr="8">Reloj</Word8>
-		<Word nr="9">Auto</Word9>
-		<Word nr="10">Chocolate</Word10>
+		<Word nr="1">Caballo</Word>
+		<Word nr="2">Bola</Word>
+		<Word nr="3">Case</Word>
+		<Word nr="4">Sol</Word>
+		<Word nr="5">Computadora</Word>
+		<Word nr="6">Agua</Word>
+		<Word nr="7">Piano</Word>
+		<Word nr="8">Reloj</Word>
+		<Word nr="9">Auto</Word>
+		<Word nr="10">Chocolate</Word>
 	</Words>
 
 </Dictionary>

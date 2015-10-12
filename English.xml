@@ -14,16 +14,16 @@
 
 	<!-- The words in the dictionary -->
 	<Words>
-		<Word nr="1">Horse</Word1>
-		<Word nr="2">Ball</Word2>
-		<Word nr="3">House</Word3>
-		<Word nr="4">Sun</Word4>
-		<Word nr="5">Computer</Word5>
-		<Word nr="6">Water</Word6>
-		<Word nr="7">Piano</Word7>
-		<Word nr="8">Clock</Word8>
-		<Word nr="9">Car</Word9>
-		<Word nr="10">Chocolate</Word10>
+		<Word nr="1">Horse</Word>
+		<Word nr="2">Ball</Word>
+		<Word nr="3">House</Word>
+		<Word nr="4">Sun</Word>
+		<Word nr="5">Computer</Word>
+		<Word nr="6">Water</Word>
+		<Word nr="7">Piano</Word>
+		<Word nr="8">Clock</Word>
+		<Word nr="9">Car</Word>
+		<Word nr="10">Chocolate</Word>
 	</Words>
 
 </Dictionary>
