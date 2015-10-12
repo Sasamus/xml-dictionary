@@ -14,16 +14,16 @@
 
 	<!-- The words in the dictionary -->
 	<Words>
-		<Word1>Hevonen</Word1>
-		<Word2>Pallo</Word2>
-		<Word3>Talo</Word3>
-		<Word4>Aurinko</Word4>
-		<Word5>Tietokone</Word5>
-		<Word6>Vesi</Word6>
-		<Word7>Piano</Word7>
-		<Word8>Kello</Word8>
-		<Word9>Auto</Word9>
-		<Word10>Sukla</Word10>
+		<Word nr="1">Hevonen</Word1>
+		<Word nr="2">Pallo</Word2>
+		<Word nr="3">Talo</Word3>
+		<Word nr="4">Aurinko</Word4>
+		<Word nr="5">Tietokone</Word5>
+		<Word nr="6">Vesi</Word6>
+		<Word nr="7">Piano</Word7>
+		<Word nr="8">Kello</Word8>
+		<Word nr="9">Auto</Word9>
+		<Word nr="10">Sukla</Word10>
 	</Words>
 
 </Dictionary>

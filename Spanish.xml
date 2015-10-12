@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="Style.css"?>
+<?xml-stylesheet type="text/css" href="Style.css" nr="?">
 
 <!-- Filename: Spanish.xml -->
 <!-- Author: Albin Engström -->
@@ -14,16 +14,16 @@
 
 	<!-- The words in the dictionary -->
 	<Words>
-		<Word1>Caballo</Word1>
-		<Word2>Bola</Word2>
-		<Word3>Case</Word3>
-		<Word4>Sol</Word4>
-		<Word5>Computadora</Word5>
-		<Word6>Agua</Word6>
-		<Word7>Piano</Word7>
-		<Word8>Reloj</Word8>
-		<Word9>Auto</Word9>
-		<Word10>Chocolate</Word10>
+		<Word nr="1">Caballo</Word1>
+		<Word nr="2">Bola</Word2>
+		<Word nr="3">Case</Word3>
+		<Word nr="4">Sol</Word4>
+		<Word nr="5">Computadora</Word5>
+		<Word nr="6">Agua</Word6>
+		<Word nr="7">Piano</Word7>
+		<Word nr="8">Reloj</Word8>
+		<Word nr="9">Auto</Word9>
+		<Word nr="10">Chocolate</Word10>
 	</Words>
 
 </Dictionary>
