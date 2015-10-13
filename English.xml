@@ -4,6 +4,9 @@
 <!-- Filename: English.xml -->
 <!-- Author: Albin Engström -->
 
+<!-- And external DTD -->
+<!DOCTYPE Dictionary SYSTEM "Dictionary.dtd">
+
 <Dictionary>
 
 	<!-- The language of the words in the dictionary -->

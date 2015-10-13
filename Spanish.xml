@@ -4,6 +4,7 @@
 <!-- Filename: Spanish.xml -->
 <!-- Author: Albin Engström -->
 
+<!-- An internal DTD -->
 <!DOCTYPE Dictionary [
   <!ELEMENT Dictionary (Language, Author, Words)>
   <!ELEMENT Language (#PCDATA)>

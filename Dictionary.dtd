@@ -1,0 +1,5 @@
+<!ELEMENT Dictionary (Language, Author, Words)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Words (Word+)>
+<!ELEMENT Word (#PCDATA)>
