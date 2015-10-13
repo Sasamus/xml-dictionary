@@ -4,7 +4,7 @@
 <!-- Filename: English.xml -->
 <!-- Author: Albin Engström -->
 
-<!-- And external DTD -->
+<!-- An external DTD -->
 <!DOCTYPE Dictionary SYSTEM "Dictionary.dtd">
 
 <Dictionary>

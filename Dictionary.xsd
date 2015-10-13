@@ -3,22 +3,47 @@
 <!-- Filename: Dictionary.xsd -->
 <!-- Author: Albin Engström -->
 
+<!-- Declare a schema -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-<xsd:annotation>
-  <xsd:documentation>
-    A list of words.
-  </xsd:documentation>
-</xsd:annotation>
+  <!-- The root element -->
+  <xsd:element name="Dictionary">
 
-<xsd:element name="Dictionary">
+    <!-- There's severl elements in it -->
+    <xsd:complexType>
 
-  <xsd:simpleType>
-    <xsd:element name="Language" type="xsd:string"/>
-  </xsd:simpleType>
+      <!-- They must come in order -->
+      <xsd:sequence>
 
-  <xsd:simpleType>
-    <xsd:element name="Author" type="xsd:string"/>
-  </xsd:simpleType>
+        <xsd:element name="Language" type="xsd:string"/>
 
-</xsd:element>
+        <xsd:element name="Author" type="xsd:string"/>
+
+        <xsd:element name="Words" type="WordsType">
+
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <!-- Define WordsType -->
+  <xsd:complexType name="WordsType">
+
+    <!-- There can be any number of Word elements -->
+    <xsd:sequence>
+      <xsd:element name="Word" type="WordType"  minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <!-- Define WordType -->
+  <xsd:complexType name="WordType">
+
+    <!-- Extend it with attribute nr -->
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="nr" type="xsd:integer"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+</xsd:schema>
