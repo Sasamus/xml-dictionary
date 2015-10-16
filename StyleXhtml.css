@@ -48,3 +48,9 @@ ol {
   /* Set font size to 12pt */
   font-size: 12pt;
 }
+
+/* Styling for images */
+img {
+    display: block;
+    margin: 0 auto;
+}
