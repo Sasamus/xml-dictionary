@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The root tag -->
+<Dictionary>
+
+  <!-- The langiages to make a dictionary with -->
+	<Language1> Spanish.xml </Langiage1>
+	<Language2> Finnish.xml </Langiage2>
+
+  <!-- The logo of the company -->
+  <Logo> Logo.svg </Logo>
+
+  <!-- The author -->
+  <Author> Albin Engström </Author>
+
+</Dictionary>
