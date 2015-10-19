@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CreateDictionary.xsl"?>
 
 <!-- The root tag -->
 <Dictionary>
 
   <!-- The langiages to make a dictionary with -->
-	<Language1> Spanish.xml </Langiage1>
-	<Language2> Finnish.xml </Langiage2>
+	<Language1> Spanish.xml </Language1>
+	<Language2> Finnish.xml </Language2>
 
   <!-- The logo of the company -->
   <Logo> Logo.svg </Logo>

@@ -15,7 +15,7 @@
         <link rel="stylesheet" type="text/css" href="StyleXhtml.css" />
 
         <!-- The page title -->
-        <title><xsl:value-of select="//Language" /> Dictionary</title>
+        <title><xsl:value-of select="/Dictionary/Language" /> Dictionary</title>
       </head>
 
       <!-- The body tag -->
@@ -54,5 +54,3 @@
     </html>
   </xsl:template>
 </xsl:stylesheet>
-
-<!-- TODO: The img -->
