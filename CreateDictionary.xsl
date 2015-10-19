@@ -7,15 +7,21 @@
   <!-- A template -->
   <xsl:template match="/">
 
-    <!-- Set variables with the file names -->
+    <!-- Variables with the file names -->
     <xsl:variable name="File1" select="/Dictionary/Language1" />
     <xsl:variable name="File2" select="/Dictionary/Language2" />
 
-    <!-- Create variables with the languages -->
+    <!-- Variables with the languages -->
     <xsl:variable name="Language1"
       select="document($File1)/Dictionary/Language" />
     <xsl:variable name="Language2"
       select="document($File2)/Dictionary/Language" />
+
+    <!-- Variables for the list of words -->
+    <xsl:variable name="Language1Words"
+      select="document($File1)/Dictionary/Words" />
+    <xsl:variable name="Language2Words"
+      select="document($File2)/Dictionary/Words" />
 
     <!-- The html tag -->
     <html>
@@ -48,6 +54,31 @@
           <xsl:value-of select="$Language2"/>
           Dictionary
         </p>
+
+        <xsl:for-each select="$Language1Words/Word">
+
+          <xsl:sort order="ascending" />
+
+          <xsl:variable name="WordNr" select="@nr"/>
+
+          <p>
+             <xsl:value-of select="."/>
+            -  
+             <xsl:for-each select="$Language2Words/Word">
+
+               <xsl:if test="@nr = $WordNr">
+                 <xsl:value-of select="."/>
+               </xsl:if>
+
+             </xsl:for-each>
+
+          </p>
+
+        </xsl:for-each>
+
+
+
+
 
 
 
