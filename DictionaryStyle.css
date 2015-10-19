@@ -1,0 +1,66 @@
+/* Styling for the Language class */
+.Language {
+
+  /* Show the text in a single line */
+  display: block;
+
+  /* Center the texts */
+  text-align: center;
+
+  /* Set font size to 24pt */
+  font-size: 24pt;
+
+  /* Set font variant to small-caps */
+  font-variant: small-caps;
+}
+
+/* Styling for the Author class */
+.Author {
+
+  /* Set the padding above it to 1.5 cm */
+  padding-top: 1.5cm;
+
+  /* Set the padding below it to 2.5cm */
+  padding-bottom: 2.5cm;
+
+  /* Show the text in a single line */
+  display: block;
+
+  /* Center the texts */
+  text-align: center;
+
+  /* Set font size to 16pt */
+  font-size: 16pt;
+
+  /* Set font variant to small-caps */
+  font-variant: small-caps;
+}
+
+/* Styling for the leftmost words */
+.Left {
+	
+  /* Set font size to 10pt */
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+/* Styling for the rightmost words */
+.Right {
+
+  /* Set font size to 10pt */
+  font-size: 10pt;
+}
+
+/* Styling for images */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+td {
+	text-align: left;
+}
+
+th {
+	text-align: left;
+}
