@@ -11,6 +11,8 @@
   <!ELEMENT Author (#PCDATA)>
   <!ELEMENT Words (Word+)>
   <!ELEMENT Word (#PCDATA)>
+	<!ATTLIST Word nr CDATA #REQUIRED>
+
 ]>
 
 <Dictionary>
