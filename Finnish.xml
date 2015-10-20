@@ -4,7 +4,11 @@
 <!-- Filename: Finnish.xml -->
 <!-- Author: Albin Engström -->
 
-<Dictionary>
+<!-- Root tag linking an xml schema -->
+<Dictionary
+	xmlns="http://www.w3schools.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 			xsi:noNamespaceSchemaLocation="Dictionary.xsd">
 
 	<!-- The language of the words in the dictionary -->
 	<Language>Finnish</Language>
