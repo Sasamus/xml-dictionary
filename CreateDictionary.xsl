@@ -23,11 +23,19 @@
 		<xsl:variable name="Language2Words"
 			select="document($File2)/Dictionary/Words" />
 
+		<!-- The doctype tag -->
+		<xsl:text disable-output-escaping='yes'>
+			&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+				"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</xsl:text>
+
 		<!-- The html tag -->
-		<html>
+		<html xmlns="http://www.w3.org/1999/xhtml">
 
 			<!-- The head tag -->
 			<head>
+
+				<!-- The meta tag -->
+				<meta http-equiv="Content-Type" content="text/html charset=utf-8" />
 
 				<!-- Link the stylesheet -->
 				<link rel="stylesheet" type="text/css" href="DictionaryStyle.css" />
@@ -61,13 +69,16 @@
 				<!-- The first table -->
 				<table>
 
-					<!-- Show what language are in what column -->
-					<th>
-						<xsl:value-of select="$Language1"/>
-					</th>
-					<th>
-						<xsl:value-of select="$Language2"/>
-					</th>
+					<!-- A table row -->
+					<tr>
+						<!-- Show what language are in what column -->
+						<th>
+							<xsl:value-of select="$Language1"/>
+						</th>
+						<th>
+							<xsl:value-of select="$Language2"/>
+						</th>
+					</tr>
 
 					<!-- Iterate throught the words -->
 					<xsl:for-each select="$Language1Words/Word">
@@ -111,19 +122,20 @@
 					</xsl:for-each>
 				</table>
 
-				<!-- Some extra space -->
-				<br/>
-
 				<!-- The second table -->
 				<table>
 
-					<!-- Show what language are in what column -->
-					<th>
-						<xsl:value-of select="$Language2"/>
-					</th>
-					<th>
-						<xsl:value-of select="$Language1"/>
-					</th>
+					<!-- A table row -->
+					<tr>
+
+						<!-- Show what language are in what column -->
+						<th>
+							<xsl:value-of select="$Language2"/>
+						</th>
+						<th>
+							<xsl:value-of select="$Language1"/>
+						</th>
+					</tr>
 
 					<!-- Iterate throught the words -->
 					<xsl:for-each select="$Language2Words/Word">

@@ -5,8 +5,8 @@
 <Dictionary>
 
   <!-- The languages to make a dictionary with -->
-	<Language1> Spanish.xml </Language1>
-	<Language2> Finnish.xml </Language2>
+	<Language1>Spanish.xml</Language1>
+	<Language2>Finnish.xml</Language2>
 
   <!-- The logo of the company -->
   <Logo> Logo.svg </Logo>
